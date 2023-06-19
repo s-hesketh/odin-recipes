@@ -1,0 +1,176 @@
+* {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+}
+
+.homepage-button-div {
+    text-align: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.container-div {
+    background-color: white;
+    margin: 10%;
+    margin-top: 5%;
+}
+
+
+.recipe-card-div {
+    box-shadow: 1px 1px 4px black;
+    padding: 10%;
+}
+
+
+.intro-timings-div {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.intro-timings-div p {
+    border-style: double;
+    border-color: black;
+    margin: 10px;
+    margin-top: 0;
+    padding: 5px;
+}
+
+.timings {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.recipe-image {
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    max-width: 400px;
+}
+
+
+.ingredients-div,
+.directions-div {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+}
+
+.ingredients-div {
+    width: 40%;
+}
+
+.homepage-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-parent-div {
+    position: relative;
+}
+
+
+.menu-div {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    top: 50%;
+    left: 20%;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.intro-timings {
+    font-weight: bold;
+    display: inline-block;
+    width: 600px;
+    vertical-align: top;
+    margin: 0px;
+}
+
+.timings,
+.ingredients,
+.directions {
+    background-color: rgb(228,230,227);
+    width: 350px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.ingredients,
+.directions {
+    color: red;
+}
+
+.ingredients-list,
+.directions-list {
+    color: blue;
+    border-style: dashed;
+    border-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;   
+}
+
+.ingredients-list {
+    width: 30%;
+    display: flexbox;
+}
+
+.recipe-image {
+    display: inline-block;
+}
+
+.timings {
+    display: inline-block;
+    vertical-align: top;   
+}
+*/
